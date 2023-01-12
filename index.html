@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Programming Pathshala Clone</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        function afun(){
+            console.log("working");
+        }
+    </script>
 </head>
 <body>
     <div>
@@ -44,9 +49,18 @@
                     <form action="POST">
                     <p>Stuck in your career? We are here!</p>
                     <h1>Get a Free 1-1 Career Counsel</h1>
-                        <input class="inputbox" type="text" name="Name" id="" placeholder="Name *"><br><br>
-                        <input class="inputbox" type="email" name="Email" id="" placeholder="Email *"><br><br>
-                        <input class="inputbox" type="number" name="PhoneNumber" id="" placeholder="Phone Number* "><br><br>
+                        <div style="position: relative;">
+                            <input class="inputbox" id="nameinp" type="text" name="Name" placeholder="Name *"><br><br>
+                            <label id="name">Name *</label>
+                        </div>
+                        <div style="position: relative;">
+                            <input class="inputbox" id="emailinp" type="email" name="Email" placeholder="Email *"><br><br>
+                            <label id="email">Email *</label>
+                        </div>
+                        <div style="position:relative;">
+                            <input class="inputbox" id="numberinp" type="number" name="PhoneNumber" placeholder="Phone Number * "><br><br>
+                            <label id="number">Number *</label>
+                        </div>
                     <button>Book a Call Now</button>
                     </form>
 
